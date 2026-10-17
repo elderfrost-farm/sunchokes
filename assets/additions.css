@@ -1,0 +1,85 @@
+/* ── additions: hero image, rule of 5, photo band, in-stock toggle ── */
+
+/* hero as two columns */
+.hero__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  gap: clamp(28px, 4vw, 64px);
+  align-items: center;
+}
+.hero__figure { margin: 0; }
+.hero__figure img {
+  display: block; width: 100%; height: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--rule);
+  aspect-ratio: 1 / 1; object-fit: cover;
+}
+
+/* rule-of-5 band */
+.section--rule { background: var(--paper-2); border-block: 1px solid var(--rule); }
+.table--rule td, .table--rule th { text-align: left; }
+.table--rule td:first-child { white-space: nowrap; font-weight: 600; }
+.table--rule td:not(:first-child) { font-variant-numeric: tabular-nums; color: var(--ink-soft); }
+.section--rule .table td { color: var(--ink-soft); border-bottom-color: var(--rule); }
+.section--rule .table th { color: var(--ink-faint); }
+.section--rule .table tr.is-emph td {
+  background: #efe9dc; color: var(--ink); font-weight: 600;
+}
+.section--rule .table tr.is-emph td:first-child { color: var(--green); }
+
+/* full-bleed photo */
+.bandphoto { margin: 0; position: relative; }
+.bandphoto img { display: block; width: 100%; height: clamp(240px, 34vw, 460px); object-fit: cover; }
+.bandphoto figcaption {
+  position: absolute; left: 0; right: 0; bottom: 0;
+  padding: 46px 22px 18px;
+  background: linear-gradient(to top, rgba(15,18,10,.78), rgba(15,18,10,0));
+  color: #eceae0; font-size: .84rem; text-align: center;
+}
+
+/* eat section: image + copy side by side */
+.eat__grid {
+  display: grid; grid-template-columns: minmax(0,0.42fr) minmax(0,1fr);
+  gap: clamp(24px, 3vw, 48px); align-items: center; margin-bottom: 34px;
+}
+.eat__figure { margin: 0; }
+.eat__figure img {
+  display: block; width: 100%; height: auto; aspect-ratio: 1/1; object-fit: cover;
+  border-radius: var(--radius); border: 1px solid var(--rule);
+}
+
+/* toolbar right group + in-stock toggle */
+.toolbar__right { display: flex; align-items: center; gap: 18px; }
+.toggle { display: inline-flex; align-items: center; gap: 8px; font-size: .8rem; color: var(--ink-soft); cursor: pointer; user-select: none; }
+.toggle input { width: 16px; height: 16px; accent-color: var(--green); cursor: pointer; }
+.toggle input:focus-visible { outline: 2px solid var(--clay); outline-offset: 2px; }
+
+/* out-of-stock cards */
+.card--out .card__media { opacity: .72; }
+.card--out .card__name, .card--out .card__note { color: var(--ink-faint); }
+.badge--out { left: auto; right: 10px; background: #6d6a60; }
+.card__sub { font-size: .78rem; color: var(--ink-faint); letter-spacing: .01em; }
+
+/* callout variant with a link */
+.callout--cta a { color: var(--clay); }
+
+/* responsive */
+@media (max-width: 900px) {
+  .hero__grid { grid-template-columns: 1fr; }
+  .hero__figure { order: -1; max-width: 420px; }
+  .eat__grid { grid-template-columns: 1fr; }
+  .eat__figure { max-width: 380px; }
+}
+@media (max-width: 760px) {
+  .masthead__nav a[href="#rule"], .masthead__nav a[href="#varieties"] { display: none; }
+  .toolbar__right { width: 100%; justify-content: space-between; }
+}
+@media (max-width: 520px) {
+  .masthead__nav a[href="#eat"] { display: none; }
+}
+
+/* ── card alignment: bottom-align price + CTA across a row ── */
+.card { display: flex; height: 100%; }
+.card__link { height: 100%; }
+.card__body { flex: 1 1 auto; }
+.card__foot { margin-top: auto; padding-top: 14px; }

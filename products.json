@@ -1,0 +1,163 @@
+{
+  "_readme": "Real products, prices and URLs pulled from www.elderfrost.com/shop. Edit 'note' freely. 'url' points at your live Squarespace product page. 'sold_out' hides the buy CTA and shows a waitlist badge. 'from' renders the price as 'from $X'.",
+
+  "site_name": "Elderfrost Nursery",
+  "store_url": "https://www.elderfrost.com",
+  "shop_url": "https://www.elderfrost.com/shop",
+  "location": "Zone 5 · Experimental plant nursery",
+  "page_title": "Elderfrost Nursery — Jerusalem artichokes for Zone 5",
+  "tagline": "Jerusalem artichokes and the cold-hardy perennials that grow beside them — grown and tested in Zone 5.",
+
+  "products": [
+    {
+      "name": "Jerusalem Artichoke Tubers",
+      "subtitle": "8 oz · 1 lb · 3 lb",
+      "price": 18.00,
+      "from": true,
+      "category": "Sunchokes",
+      "note": "Shipped in damp sawdust to keep them that way. 8 oz $18 · 1 lb $27 · 3 lb $50. Our 2025 crop came through a Northeast drought, so the tubers run small — more tubers per pound, and no need to cut them apart.",
+      "url": "https://www.elderfrost.com/shop/p/jerusalem-artichoke-tubers-sunchoke-roots-for-planting",
+      "image": "images/sunchoke-hand-basket.jpg",
+      "badge": "The main event",
+      "sold_out": false,
+      "visible": true
+    },
+
+    {
+      "name": "Walking Onion Bulbs",
+      "subtitle": "Perennial live plants",
+      "price": 16.00,
+      "from": true,
+      "category": "Perennial Vegetables",
+      "note": "Potent onion greens from a patch that plants itself. These bulbs are already rooting, so they put on more size this year than top-set bulbs planted in late summer.",
+      "url": "https://www.elderfrost.com/shop/p/walking-onion-bulbs-perennial-live-plants-edible-greens",
+      "image": "",
+      "sold_out": false,
+      "visible": true
+    },
+    {
+      "name": "Big Top Western Horseradish",
+      "subtitle": "Roots and plants",
+      "price": 16.00,
+      "from": true,
+      "category": "Perennial Vegetables",
+      "note": "Same hardiness, same vigor, same indifference to bad soil as the sunchokes. Dig it every fall or it'll do exactly what the sunchokes do.",
+      "url": "https://www.elderfrost.com/shop/p/big-top-western-horseradish-roots-and-plants-spicy-flavor-vigorous-growth",
+      "image": "",
+      "sold_out": false,
+      "visible": true
+    },
+    {
+      "name": "Myoga Ginger",
+      "subtitle": "Cold-hardy young plants, Zone 5b",
+      "price": 23.00,
+      "from": true,
+      "category": "Perennial Vegetables",
+      "note": "Japanese ginger that survives our winters. The flower buds and young shoots are the crop, and potted plants establish about half a season ahead of root divisions.",
+      "url": "https://www.elderfrost.com/shop/p/myoga-ginger-live-roots-cold-hardy-young-plants-zone-5b",
+      "image": "",
+      "sold_out": true,
+      "visible": true
+    },
+
+    {
+      "name": "Native New England Thornless Raspberry",
+      "subtitle": "Plants and cuttings",
+      "price": 18.00,
+      "from": true,
+      "category": "Cold-Hardy Berries",
+      "note": "Native, thornless American wild raspberry. Came through 80° days, nights in the upper 30s and three inches of rain in a day — still standing.",
+      "url": "https://www.elderfrost.com/shop/p/allegheny-blackberry-plant-high-bush-native-north-american-species-czs8z",
+      "image": "",
+      "badge": "Native",
+      "sold_out": false,
+      "visible": true
+    },
+    {
+      "name": "Allegheny Blackberry",
+      "subtitle": "High bush, native species",
+      "price": 18.00,
+      "from": true,
+      "category": "Cold-Hardy Berries",
+      "note": "A native blackberry that makes a real hedge — pollinator plant, bird plant and berry crop in one bush. Our biggest stock item.",
+      "url": "https://www.elderfrost.com/shop/p/allegheny-blackberry-plant-high-bush-native-north-american-species",
+      "image": "",
+      "sold_out": false,
+      "visible": true
+    },
+    {
+      "name": "Ebony King Blackberry",
+      "subtitle": "Erect canes, high yields",
+      "price": 22.00,
+      "from": true,
+      "category": "Cold-Hardy Berries",
+      "note": "Erect canes, so less trellising than most blackberries, and it yields hard. Only six in stock.",
+      "url": "https://www.elderfrost.com/shop/p/ebony-king-blackberry-high-bush-erect-canes-high-yields-plants-and-cuttings",
+      "image": "",
+      "badge": "Only 6 left",
+      "sold_out": false,
+      "visible": true
+    },
+    {
+      "name": "Native New England Swamp Dewberry",
+      "subtitle": "Bristly dewberry, running swamp blackberry",
+      "price": 18.00,
+      "from": true,
+      "category": "Cold-Hardy Berries",
+      "note": "A moisture-loving native bramble that grows where the ground stays wet — exactly where sunchokes would rot.",
+      "url": "https://www.elderfrost.com/shop/p/allegheny-blackberry-plant-high-bush-native-north-american-species-5s4pm",
+      "image": "",
+      "sold_out": true,
+      "visible": true
+    },
+    {
+      "name": "Honeyberry Haskap — Borealis",
+      "subtitle": "Live cuttings",
+      "price": 20.00,
+      "from": true,
+      "category": "Cold-Hardy Berries",
+      "note": "Flowers early, sets fruit in Zone 2, tastes like a blueberry-raspberry cross. Plant two varieties for pollination.",
+      "url": "https://www.elderfrost.com/shop/p/honeyberry-haskap-live-cuttings-borealis-cultivar",
+      "image": "",
+      "sold_out": true,
+      "visible": true
+    },
+    {
+      "name": "Willoughby Black Currant",
+      "subtitle": "Plants or cuttings",
+      "price": 22.00,
+      "from": true,
+      "category": "Cold-Hardy Berries",
+      "note": "Hardy berry shrub, and one this climate should be growing far more of. Cuttings root easily, which is why we can sell them this way.",
+      "url": "https://www.elderfrost.com/shop/p/willoughby-black-currant-plants-and-cuttings-hardy-berry-shrub-live-plant-or-cuttings",
+      "image": "",
+      "sold_out": true,
+      "visible": true
+    },
+    {
+      "name": "Scotia Elderberry",
+      "subtitle": "Live plant cuttings",
+      "price": 20.00,
+      "from": true,
+      "category": "Cold-Hardy Berries",
+      "note": "Cold-hardy and high-yield. Wants a partner variety nearby for a good fruit set, and the same damp-ish feet the dewberry likes.",
+      "url": "https://www.elderfrost.com/shop/p/scotia-elderberry-live-plant-cuttings-cold-hardy-high-yield",
+      "image": "",
+      "sold_out": true,
+      "visible": true
+    },
+
+    {
+      "name": "Hybrid Willow",
+      "subtitle": "Plants and cuttings",
+      "price": 15.00,
+      "from": true,
+      "category": "Support Species",
+      "note": "Privacy screen, erosion control, biomass, basketry — and the windbreak that protects everything else here. Same rough ground as the sunchokes.",
+      "url": "https://www.elderfrost.com/shop/p/hybrid-willow-plants-and-cuttings-privacy-screen-erosion-control",
+      "image": "",
+      "sold_out": false,
+      "visible": true
+    }
+  ]
+}
